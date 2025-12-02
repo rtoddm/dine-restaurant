@@ -1,0 +1,98 @@
+:root {
+  /* ===== COLORS ===== */
+  --bg-dark: #111111; /* hero, menu highlights, footer */
+  --bg-light: #ffffff; /* light sections */
+  --text-light: #ffffff; /* text on dark backgrounds */
+  --text-dark: #17192b; /* body text on light backgrounds */
+  --accent: #9e7f66; /* brand accent color */
+  --error: #e76f51; /*  error red  */
+
+  /* ===== TYPOGRAPHY ===== */
+  --fs-xl: 5rem; /* extra large heading (80px) */
+  --fs-lg: 3rem; /* large heading (48px) */
+  --fs-md: 1.25rem; /* medium heading (20px) */
+  --fs-sm: 1.06rem; /* small heading (17px) */
+
+  --fs-body-md: 1rem; /* small/medium body text (16px) */
+  --fs-body-lg: 1.25rem; /* large body text (20px) */
+
+  /* ===== LINE HEIGHTS ===== */
+  --lh-xl: 1; /* 80px line */
+  --lh-lg: 1; /* 48px line */
+  --lh-md: 1.2; /* 24px line */
+  --lh-sm: 1.65; /* 28px line */
+
+  --lh-body-md: 1.63; /* 26px line */
+  --lh-body-lg: 1.5; /* 30px line */
+
+  /* ==== FONT WEIGHT ==== */
+  --fw-xl: 300; /* light */
+  --fw-lg: 700; /* bold */
+  --fw-md: 700; /* bold */
+  --fw-sm: 600; /* semi-bold */
+
+  --fw-body: 400; /* regular */
+
+  /* ===== LETTER SPACING ===== */
+  --space-xl: -1px;
+  --space-lg: -0.5px;
+  --space-md: -0.25px;
+  --space-sm: 2.5px;
+
+  /* ==== FONT FAMILY ==== */
+  --font-family: "League Spartan", sans-serif;
+}
+
+body {
+  min-width: 375px;
+}
+
+.hero {
+  background-image: url("/images/homepage/hero-bg-mobile.jpg");
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+  min-height: 46.75rem;
+}
+
+.hero__title {
+  font-family: var(--font-family);
+  font-size: 3.5rem;
+}
+
+.hero__subtitle {
+  /* outline: blue solid 2px; */
+  color: var(--text-light);
+  letter-spacing: var(--space-lg);
+  line-height: 40px;
+  font-family: var(--font-family);
+  font-size: 2rem;
+  font-weight: 100;
+  font-style: normal;
+  min-width: 327px;
+}
+
+.hero__text {
+  /* outline: green solid 2px; */
+  max-width: 33ch;
+  font-family: "League Spartan";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.button {
+  border: 1px solid #ffffff;
+  display: inline-block;
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 16px;
+  letter-spacing: 2.5px;
+  padding: 22px 55px 22px 55px;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-decoration: none;
+}

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Dine Website Challenge</title>
+  </head>
+  <body>
+    <section>
+      <div class="hero__body">
+        <h1 class="hero__title">dine</h1>
+        <h2 class="hero__subtitle">Reservations</h2>
+        <p class="hero__text">
+          We can’t wait to host you. If you have any special requirements please
+          feel free to call on the phone number below. We’ll be happy to
+          accommodate you.
+        </p>
+
+        <a class="btn btn--accent" href="#reserve">Reserve Place</a>
+      </div>
+    </section>
+
+    <form class="reserve__form" action="">
+      <!-- name -->
+      <div class="reserve__form__name">
+        <label for="name"></label>
+        <input type="text" id="name" placeholder="Name" autocomplete="name" />
+      </div>
+      <!-- email -->
+      <div class="reserve__form__email">
+        <label for="email"></label>
+        <input type="email" id="email" placeholder="Email"
+        autocomplete="email""/>
+      </div>
+      <!-- date -->
+      <div class="reserve__form__date">
+        <span class="sr-only" id="date-label">Pick a date</span>
+        <label for="date"></label>
+        <input
+          class="reserve__form__input"
+          aria-labelledby="date-label"
+          placeholder="MM"
+          inputmode="numeric"
+          maxlength="2"
+          id="date"
+        />
+      </div>
+      <!-- time -->
+      <div class="reserve__form__time">
+        <label for="time"></label>
+        <input
+          class="reserve__form__input"
+          aria-labelledby="date-label"
+          placeholder="DD"
+          inputmode="numeric"
+          maxlength="2"
+          id="time"
+        />
+      </div>
+      <!-- number of guests -->
+      <div class="reserve__form__stepper">
+        <label for="guests"></label>
+        <input
+          class="reserve__form__input"
+          aria-labelledby="date-label"
+          placeholder="MM"
+          inputmode="numeric"
+          maxlength="2"
+          id="guests"
+        />
+      </div>
+      <!-- button -->
+      <div class="reserve__form__btn">
+        <button class="btn btn--accent" href="">Make Reservation</button>
+      </div>
+    </form>
+
+    Pick a date Pick a time Make Reservation Marthwaite, Sedbergh Cumbria +00 44
+    123 4567 Open Times Mon - Fri: 09:00 AM - 10:00 PM Sat - Sun: 09:00 AM -
+    11:30 PM
+  </body>
+</html>
